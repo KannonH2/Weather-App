@@ -1,0 +1,32 @@
+.input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #666;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    width: 400px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;   
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #00098b;
+    color: #fff;
+}

@@ -1,0 +1,27 @@
+.main {
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff65;
+    backdrop-filter: blur(16px);
+    border-radius: 10px;
+    position: relative;
+}
+
+.detailName{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.submain{
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+.description{
+    font-size: 1.5rem;
+}

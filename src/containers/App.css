@@ -1,0 +1,69 @@
+.App {
+  background-attachment: fixed;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.Nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(16px);
+  background-color: #ffffff2a;
+}
+
+.container {
+  width: 70vw;
+  height: 70vh;
+  border-radius: 1.5rem;
+  margin: 20vh 15vw;
+  top: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50vh 20vh;
+  padding: 0;
+  justify-content : center;
+  align-items: center; 
+}
+
+.CityCard {
+  display: flex;
+  width: 70vw;
+  height: 20vh;
+  background-color: #ffffff65;
+  backdrop-filter: blur(16px);
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+/* .PrimaryCard {
+  display: flex;
+  width: 70vw;
+  height: 20vh;
+  background-color: #ffffff65;
+  backdrop-filter: blur(16px);
+  justify-content: space-between;
+  padding: 0 1rem;
+} */
+
+
+
+
+.App, 
+.container {
+  background-image: url('../Images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}

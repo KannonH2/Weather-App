@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  margin-top: 1rem;
+}
+
+.card + .card {
+  border-left: 5rem solid #74747465;
+}
+
+.card > img {
+  width: 5rem;
+  height: 5rem;
+}
+
+
+.temp{
+  display: flex;
+  flex-direction: column;
+  width: 3rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.temp + .temp {
+  margin-left: 0.5rem;
+}
+
+.temps{
+  display: flex;
+  justify-content: space-between;
+}
+
+.name{
+  background-color: #00000065;
+  padding: 0.25rem 0.75rem ;
+  border-radius: 9999px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
